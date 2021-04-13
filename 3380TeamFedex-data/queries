@@ -1,0 +1,103 @@
+use employeedb
+
+db.createCollection('employees')
+
+db.employees.insertMany([
+    {
+        empId: 100,
+        name: 'Pentunia Nisuis',
+        gender: 'Female',
+        age: 60,
+        position: 'Operations Manager'
+        yearsOfServiceOfService: '30'
+    },
+        {
+        empId: 200,
+        name: 'Lyn Waterdrinker',
+        gender: 'Female',
+        age: 30,
+        position: 'Cargo'
+        yearsOfService: '10'
+    },
+        {
+        empId: 300,
+        name: 'Cameron Galbreth',
+        gender: 'Female',
+        age: 59,
+        position: 'Customer Service'
+        yearsOfService: '23'
+    },
+        {
+        empId: 400,
+        name: 'Jacqui Saby',
+        gender: 'Female',
+        age: 47,
+        position: 'Courier'
+        yearsOfService: '26'
+    },
+        {
+        empId: 500,
+        name: 'Talbert Tofts',
+        gender: 'Female',
+        age: 47,
+        position: 'Operations Manager'
+        yearsOfService: '14'
+    },
+        {
+        empId: 600,
+        name: 'Harwill Zuppa',
+        gender: 'Female',
+        age: 54,
+        position: 'Cargo'
+        yearsOfService: '6'
+    },
+        {
+        empId: 700,
+        name: 'Nikolas Fallon',
+        gender: 'Male',
+        age: 41,
+        position: 'Customer Service'
+        yearsOfService: '15'
+    },
+        {
+        empId: 800,
+        name: 'Susette Hasell',
+        gender: 'Male',
+        age: 65,
+        position: 'Courier'
+        yearsOfService: '35'
+    },
+        {
+        empId: 900,
+        name: 'Allan Jzak',
+        gender: 'Male',
+        age: 30,
+        position: 'Operations Manager'
+        yearsOfService: '9'
+    },
+        {
+        empId: 1000,
+        name: 'Eran Pitcher',
+        gender: 'Male',
+        age: 49,
+        position: 'Cargo'
+        yearsOfService: '20'
+    },
+        {
+        empId: 1100,
+        name: 'Bevan Downing',
+        gender: 'Male',
+        age: 58,
+        position: 'Customer Service'
+        yearsOfService: '24'
+    },
+        {
+        empId: 1200,
+        name: 'Corri Duberry',
+        gender: 'Male',
+        age: 22,
+        position: 'Courier'
+        yearsOfService: '1'
+    },
+
+])
